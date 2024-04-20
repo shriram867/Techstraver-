@@ -1,7 +1,7 @@
 //Final Task : Password manager
 #include<bits/stdc++.h>
 using namespace std;
-
+//This system firstly adds passwords to particular username and   
 class PasswordManager{
 private:
     static const int MAXACCOUNTS=100; 
@@ -43,10 +43,10 @@ int main() {
         cout<<"Enter password: ";
         cin>>password;
         manager.addPassword(username,password);
-        cout<<"Do you want to add another password? (y/n): ";
+        cout<<"Do you want to add another password for another username further? (y/n): ";
         cin>>choice;
     } while(choice=='y'||choice=='Y');
-    cout<<"Enter username to rebuild password: ";
+    cout<<"Enter username to find your password in our system: ";
     cin>>username;
     string retrievedPassword=manager.getPassword(username);
     cout<<"Password for "<<username<<": "<<retrievedPassword<<endl;

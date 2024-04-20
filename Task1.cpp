@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int main(){
     int num_of_Courses;
     cout<<"How many courses did you take? ";

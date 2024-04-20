@@ -1,9 +1,7 @@
 // TASK 2 Techstraver         "Student Record Management System"
 #include<bits/stdc++.h>
 using namespace std;
-
 //I have defined our Student class to represent individual student records
-
 class Student{
 private:
     string name;
